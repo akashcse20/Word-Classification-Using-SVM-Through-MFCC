@@ -1,17 +1,14 @@
-```markdown
 # Word Classification Using SVM through MFCC
 
-## 📄 Project Overview
+📄 Project Overview
+This repository demonstrates word classification from speech data using Mel-Frequency Cepstral Coefficients (MFCC) and Support Vector Machine (SVM). The primary goal is to extract features from speech audio files, train an SVM classifier, and evaluate its performance for recognizing words.
 
-This repository demonstrates **word classification** from speech data using **Mel-Frequency Cepstral Coefficients (MFCC)** and **Support Vector Machine (SVM)**. The primary goal is to extract features from speech audio files, train an SVM classifier, and evaluate its performance for recognizing words.
+🛠️ Key Features
 
----
-
-## 🛠️ Key Features
-- **MFCC Extraction**: Converts speech audio into MFCC features for classification.
-- **SVM Classification**: A **linear kernel SVM** classifies words based on extracted MFCC features.
-- **Data Visualization**: Visualizes the MFCC features using **Matplotlib** and **Seaborn**.
-- **Performance Evaluation**: Assesses model performance with metrics like **accuracy**, **precision**, and **recall**.
+- **MIT License**: This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+- **Librosa**: Python package for audio analysis and feature extraction.
+- **scikit-learn**: For SVM classification and model evaluation.
+- **Matplotlib & Seaborn**: Libraries for visualizing data and results.
 
 ---
 
