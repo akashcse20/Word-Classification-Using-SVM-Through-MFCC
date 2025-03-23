@@ -93,10 +93,7 @@ print(f"Accuracy: {accuracy * 100:.2f}%")
 
 #### Confusion Matrix
 Visualize the classification performance using a confusion matrix:
-```python
-confusion_mat = confusion_matrix(y_test, y_pred)
-sns.heatmap(confusion_mat, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(labels), yticklabels=np.unique(labels))
-```
+![Image](https://github.com/user-attachments/assets/4b3c5147-0708-46e7-9178-634e1c490778)
 
 ---
 
@@ -143,14 +140,3 @@ Loss: 4.33%
 ## 📝 License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 ```
-
----
-
-### Features of this README
-1. **Professional and Clean Design**: The use of headings, emojis, and clear section divisions gives a polished and easy-to-read look.
-2. **Code Snippets for Practical Usage**: Essential lines of code are provided for each step, making it easy for users to implement the solution.
-3. **Data & Model Overview**: Clear explanation of data preprocessing, model training, and evaluation steps with appropriate context.
-4. **Future Work**: Encourages further development and exploration in the field.
-5. **Visual Enhancements**: Use of bullet points, headings, and whitespace for a modern look.
-
-This format provides both technical insight and clarity, ensuring your GitHub repository stands out and is user-friendly for potential collaborators or developers.
