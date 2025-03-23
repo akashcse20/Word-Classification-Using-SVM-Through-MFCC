@@ -65,15 +65,7 @@ for class_folder in os.listdir(dataset_dir):
 
 ### Visualizing MFCC Data
 To visualize how each word's MFCC features look:
-```python
-plt.plot(data_sample)
-plt.title(f'Class {i + 1}')
-plt.xlabel('Sample Index')
-plt.ylabel('Value')
-plt.grid(True)
-plt.show()
-```
-
+![Image](https://github.com/user-attachments/assets/6d5e85ab-9b82-4ea8-9775-5fa2e2e1a9cd)
 ---
 
 ## 🧠 Model Training & Evaluation
